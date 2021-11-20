@@ -62,7 +62,7 @@ input:focus, input:hover, textarea:hover, select:hover, textarea:focus, select:f
 /* --Line-- */
 hr{ margin: 20px auto 0; padding: 0; max-width: 210px;border: 0; border-top: double 4px;text-align: center;display: block; line-height: 1px; height: auto;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;-ms-box-sizing: content-box;-o-box-sizing: content-box;box-sizing: content-box;}
 
-hr.line01:after, 
+hr.line01:after,
 hr.line02:after,
 hr.line03:after{content: url(../images/rose.png);display: inline-block;position: relative;top: -12px;padding: 0 10px;}
 
@@ -104,8 +104,8 @@ header .main-header{position: relative;height: 100vh;width: 100%;background: url
 .main-header .hero-content-wrapper{display: table;position: absolute;top: 0;left: 0;width: 100%;height: 100%;padding-left: 10%;transition: opacity 1s ease 0s, transform 1s ease 0s;opacity: 1;}
 .main-header .hero-content-wrapper .hero-content{display: table-cell;width: 100%;height: 100%;vertical-align: middle;}
 .main-header .hero-lead{font-size: 6em;font-weight: 700;letter-spacing: 2px;color: #ececec;margin-bottom: 50px;}
-.main-header .h-alt{margin-bottom: 20px;color: #A3C145;font-weight: 400;font-size: 1.3em;letter-spacing: 3px;text-transform: uppercase}
-.main-header .button-skin{background: #A3C145;border:2px solid #A3C145;}
+.main-header .h-alt{margin-bottom: 20px;color: #f3f3f3;font-weight: 400;font-size: 1.3em;letter-spacing: 3px;text-transform: uppercase}
+.main-header .button-skin{background: #gray;border:2px solid #black;}
 .main-header .button-skin:hover{background: transparent;color: #fff;border:2px solid #fff;}
 .main-header .hero-content-wrapper.remove {-moz-transform: translateY(3rem);-webkit-transform: translateY(3rem);-ms-transform: translateY(3rem);transform: translateY(3rem);-moz-transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;opacity: 0;visibility: hidden;}
 
@@ -168,15 +168,15 @@ header .main-header{position: relative;height: 100vh;width: 100%;background: url
 .content-box.box-2 blockquote:before {top: 0;left: 0;content: "\201C"; }
 .content-box.box-2 blockquote:after {top: 0;right: 0;content: "\201D"; }
 @media only screen and (max-width: 1100px) {
-	.content-box.box-2 blockquote {font-size: 22px; } 
+	.content-box.box-2 blockquote {font-size: 22px; }
 }
 @media only screen and (max-width: 960px) {
 	.content-box.box-2 blockquote {padding: 30px 40px;font-size: 22px; }
-	.content-box.box-2 blockquote:before, .content-box.box-2 blockquote:after {width: 25px;height: 25px;font-size: 47px; } 
+	.content-box.box-2 blockquote:before, .content-box.box-2 blockquote:after {width: 25px;height: 25px;font-size: 47px; }
 }
 @media only screen and (max-width: 690px) {
 	.content-box.box-2 blockquote {padding: 10px 20px;font-size: 20px; }
-	.content-box.box-2  blockquote:before, .content-box.box-2 blockquote:after {font-size: 19px; } 
+	.content-box.box-2  blockquote:before, .content-box.box-2 blockquote:after {font-size: 19px; }
 }
 .content-box.box-2 p{color: #fff;}
 
@@ -184,11 +184,11 @@ header .main-header{position: relative;height: 100vh;width: 100%;background: url
 /* ------------------------------------Box 3----------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .content-box.box-3 {}
-.product{background: #fff;transition: .3s;overflow: hidden;margin: 0 auto 30px;max-width: 400px}	
+.product{background: #fff;transition: .3s;overflow: hidden;margin: 0 auto 30px;max-width: 400px}
 .product:hover{box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.1);transform: translateY(-5px);}
 .product h2.product-title{font-size: 16px;letter-spacing: -.3px;float: left;margin: 0 0 15px 25px;width: auto;text-transform: uppercase;max-width: calc(100% - 150px);overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .product h2.product-title a{color: #141414;}
-.product h2.product-title a:hover{color: #A3C145;}	
+.product h2.product-title a:hover{color: #A3C145;}
 .product .categories {max-width: calc(100% - 125px);overflow: hidden;text-overflow: ellipsis;white-space: nowrap;float: left;margin: 0 6px 0 25px;display: block;font-size: 13px;text-transform: capitalize;}
 .product .product-rating{float: right;font-size: 15px;margin-right: 25px;color: #A3C145;letter-spacing: -1px;line-height: 1;}
 .product .price {display: block;font-weight: 800;font-size: 16px;float: right;color: #141414;margin-right: 25px;}
@@ -332,10 +332,10 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 .contact-map_wrapper .contact-info-wrapper {background: #fff;left: 0;margin: 0 auto;padding: 70px 110px 40px;position: absolute;right: 0;top: 80px;transition: opacity 0.5s ease 0s, visibility 0.6s ease 0s, margin-top 0.5s ease 0s;}
 .contact-map_wrapper .contact-info-wrapper address .address-group {margin-bottom: 40px;}
 .contact-map_wrapper .contact-info-wrapper address .address-group span {display: block;margin-bottom: 10px;margin-top: 0;color: #333;}
-.contact-map_wrapper .contact-info-wrapper address .address-group a, 
+.contact-map_wrapper .contact-info-wrapper address .address-group a,
 .contact-map_wrapper .contact-info-wrapper address .address-group p {color: #777;display: block;font-weight: 300;margin-bottom: 3px;}
 .contact-map_wrapper .contact-info-wrapper address .show-map-link a {display: block;color: #141414;}
-.contact-map_wrapper .contact-info-wrapper address .show-map-link a:hover, 
+.contact-map_wrapper .contact-info-wrapper address .show-map-link a:hover,
 .contact-map_wrapper .contact-info-wrapper address .show-map-link a:focus{text-decoration: none;color: #777;}
 .contact-map_wrapper .contact-info-wrapper address .show-map-link i{display:inline-block;padding-right:15px;font-size: 1.6em;}
 
@@ -353,7 +353,7 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 .button{
 	cursor: pointer;
 	font-size: 0.8em;
-	border:1px solid #ffffff; 
+	border:1px solid #ffffff;
 	display: inline-block;
 	text-decoration: none;
 	margin: 10px 0 5px;
@@ -375,7 +375,7 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------Portfolio Box--------------------------------- */
-/* ---------------------------------------------------------------------------- */	
+/* ---------------------------------------------------------------------------- */
 .portfolio-box {display: block;position: relative;margin: auto;overflow: hidden;max-width: 400px}
 
 /****** Zoom Effect ******/
@@ -400,7 +400,7 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 .portfolio-box:hover .portfolio-box-caption .portfolio-box-caption-content .project-name{display: none;}
 
 @media(min-width:768px) {
-    
+
 }
 @media only screen and (min-width: 450px) and (max-width: 767px){
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -423,7 +423,7 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 .crumbs ul li:first-child a {border-top-left-radius: 6px; border-bottom-left-radius: 6px;}
 .crumbs ul li:first-child a:before {display: none; }
 .crumbs ul li:last-child a {padding-right: 40px;padding-left: 50px;border-top-right-radius: 6px; border-bottom-right-radius: 6px;}
-.crumbs ul li:last-child a:after {display: none; }		
+.crumbs ul li:last-child a:after {display: none; }
 .crumbs ul li a:hover {background: #222;color: #fff;}
 .crumbs ul li a:hover:after {border-left-color: #222;}
 .crumbs ul li a:hover:after {border-left-color: #222;}
@@ -439,5 +439,3 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 .owl-carousel .owl-buttons i.fa {font-size: 1.8em;line-height: 1}
 .owl-controls .owl-buttons .owl-prev:hover,
 .owl-controls .owl-buttons .owl-next:hover {color: #fff;background: #A3C145;border-color: #A3C145}
-
-
